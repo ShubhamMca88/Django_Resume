@@ -3,18 +3,11 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-8lp&evub*!1bcjbfw=@tg#7%wt8kv9z)tx0w4ftkv$5u=zm+d9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-# ALLOWED_HOSTS = ['https://johneldercv.com', 'johneldercv.com', 'https://django-resume-production.up.railway.app', 'django-resume-production.up.railway.app', 'localhost']
-
 
 # Application definition
 
@@ -104,7 +97,6 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = ['static/']
